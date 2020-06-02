@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <!-- Load the latest mobilenet version-->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+    <!-- Load knn-classifier-->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/knn-classifier"></script>
+  </head>
+  <body>
+    <div id="console"></div>
+    <!-- Add training images and click the buttons with respect to the classes you wish to assign them to -->
+    <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+    <button id="class-a">Add A</button>
+    <button id="class-b">Add B</button>
+    <button id="class-c">Add C</button>
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+    <!--Now when you load the index.html page, you can use common objects or face/body gestures to capture images for each of the three classes. 
+        Each time you click one of the "Add" buttons, one image is added to that class as a training example.
+         While you do this, the model continues to make predictions on webcam images coming in and shows the results in real-time.-->
+  </body>
+</html>
