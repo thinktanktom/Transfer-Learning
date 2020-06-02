@@ -6,7 +6,7 @@
 
 ## Deployment
 
-To run the model, you can download the zip file of this repository, extract it into a single folder and run the html file with a browser of your choice. You can also copy the code and run it without downloading anything.
+You can access the demo through this link: https://codesaint98.github.io/Transfer-Learning/. If you wish to run the model locally you can download the zip file, extract it and open the html file with a browser of your choice.
 Do not forget to give your browser the permission to access your webcam.
 
 ## Acknowledgement
